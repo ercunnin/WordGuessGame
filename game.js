@@ -19,7 +19,7 @@ var setup = function(){
 display[i] = "_ ";
 output = output + display[i];
 }
-document.getElementById("game").innerHTML = output;
+document.getElementById("names").innerHTML = output;
 output = "";
 }
 var submit = function(){
