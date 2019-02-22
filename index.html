@@ -1,1 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Office Guessing Game
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="logic.js"></script>
+        <script src="games.css"></script>
+    </title>
+    <header>
+        <img src="theoffice.png">
+    </header>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Word Guess Game!</h1>
+                <h1>Guess a name from the best show ever..."The Office"!</h2>
+                    <h2>Type a letter to begin</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-16">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="card-title"><strong>Names:</strong></h2>
+                    </div>
+                    <div class="card-body">
+
+                        <h1 id="word-holders">_ _ _ _ _ _ _ _ </h1>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body"></div>
+                    <strong>Incorrect guesses: </strong> <span id="incorrect-guesses"></span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <strong>Number of guesses remaining: </strong> <span id="guesses-remaining">8</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <strong>Number of wins: </strong> <span id="wins">0</span>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <strong>Number of losses: </strong> <span id="losses">0</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
