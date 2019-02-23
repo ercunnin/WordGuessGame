@@ -6,7 +6,7 @@ var $ = function(id) {
 
 //my array
 var names = ["Dwight", "Jim", "Michael", "Stanley", "Phylis", "Pam", "Oscar", "Andy", "Kevin", "Angela", "Creed", "Ryan", "Kelly", "Toby", "Meredith"]
-var choice = Math.floor(Math.Random()*15);
+var choice = Math.floor(Math.random()*15);
 var answer = game[choice];
 var myLength = answer.length;
 var display=[myLength];
